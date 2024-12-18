@@ -1,0 +1,133 @@
+granate:
+  texture: "/DuckGame-Grenades.png"
+  rects:
+    - x: 1
+      y: 21
+      w: 15
+      h: 15
+  offset_right_x: 22
+  offset_left_x: 5
+  offset_y: 10
+  scale_width: 14
+  scale_height: 14
+
+banana:
+  texture: "/DuckGame-Grenades.png"
+  rects:
+    - x: 1
+      y: 51
+      w: 16
+      h: 16
+    - x: 1
+      y: 67
+      w: 16
+      h: 16
+  offset_right_x: 15
+  offset_left_x: 10
+  offset_y: 5
+  scale_width: 14
+  scale_height: 14
+
+pew_pew_laser:
+  texture: "/DuckGame-Laser.png"
+  rects:
+    - x: 336
+      y: 94
+      w: 32
+      h: 32
+  offset_right_x: 7
+  offset_left_x: 5
+  offset_y: 6
+  scale_width: 28
+  scale_height: 28
+
+laser_rifle:
+  texture: "/DuckGame-Laser.png"
+  rects:
+    - x: 1
+      y: 97
+      w: 32
+      h: 32
+  offset_right_x: 7
+  offset_left_x: 5
+  offset_y: 6
+  scale_width: 28
+  scale_height: 28
+
+ak_47:
+  texture: "/DuckGame-MachineGuns.png"
+  rects:
+    - x: 1
+      y: 19
+      w: 32
+      h: 32
+  offset_right_x: 7
+  offset_left_x: 5
+  offset_y: 6
+  scale_width: 28
+  scale_height: 28
+
+dueling_gun:
+  texture: "/DuelingPistol.png"
+  rects:
+    - x: 0
+      y: 0
+      w: 100
+      h: 100
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 10
+  scale_height: 10
+
+cowboy_gun:
+  texture: "/CowboyPistol.png"
+  rects:
+    - x: 0
+      y: 0
+      w: 135
+      h: 135
+  offset_right_x: 11
+  offset_left_x: 11
+  offset_y: 9
+  scale_width: 19
+  scale_height: 19
+
+magnum:
+  texture: "/DuckGame-Pistol.png"
+  rects:
+    - x: 1
+      y: 47
+      w: 32
+      h: 32
+  offset_right_x: 7
+  offset_left_x: 5
+  offset_y: 6
+  scale_width: 29
+  scale_height: 29
+
+shotgun:
+  texture: "/Shotgun.png"
+  rects:
+    - x: 0
+      y: 0
+      w: 165
+      h: 165
+  offset_right_x: 11
+  offset_left_x: 9
+  offset_y: 8
+  scale_width: 20
+  scale_height: 20
+
+sniper:
+  texture: "/Sniper.png"
+  rects:
+    - x: 0
+      y: 0
+      w: 200
+      h: 200
+  offset_right_x: 9
+  offset_left_x: -7
+  offset_y: -1
+  scale_width: 38
+  scale_height: 38

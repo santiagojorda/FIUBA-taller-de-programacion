@@ -1,0 +1,13 @@
+box_close:
+  rects:
+    - x: 387
+      y: 11
+      w: 32
+      h: 32
+
+box_open:
+  rects:
+    - x: 387
+      y: 11
+      w: 32
+      h: 32

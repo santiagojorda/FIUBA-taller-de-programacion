@@ -1,0 +1,72 @@
+-- fila 1--
+fila_1_col_1:
+  rects:
+    - x: 0
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_2:
+  rects:
+    - x: 16
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_3:
+  rects:
+    - x: 32
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_4:
+  rects:
+    - x: 48
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_5:
+  rects:
+    - x: 64
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_6:
+  rects:
+    - x: 80
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_7:
+  rects:
+    - x: 96
+      y: 0
+      w: 16
+      h: 16
+
+fila_1_col_8:
+  rects:
+    - x: 112
+      y: 0
+      w: 16
+      h: 16
+
+-- fila 2--
+
+fila_2_col_1:
+  rects:
+    - x: 0
+      y: 16
+      w: 16
+      h: 16
+
+fila_2_col_2:
+  rects:
+    - x: 16
+      y: 16
+      w: 16
+      h: 16

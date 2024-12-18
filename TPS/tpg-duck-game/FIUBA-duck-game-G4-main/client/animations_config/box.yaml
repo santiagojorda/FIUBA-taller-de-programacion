@@ -1,0 +1,16 @@
+box_types:
+  texture: "/DuckGame-Props.png"
+  rects:
+    - x: 1
+      y: 145
+      w: 16
+      h: 16
+    - x: 1
+      y: 177
+      w: 16
+      h: 16
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 32
+  scale_height: 32

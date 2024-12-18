@@ -1,0 +1,41 @@
+==00:00:00:00.000 71003== Memcheck, a memory error detector
+==00:00:00:00.000 71003== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==00:00:00:00.000 71003== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==00:00:00:00.000 71003== Command: ./client 127.0.0.1 1502
+==00:00:00:00.000 71003== Parent PID: 71000
+==00:00:00:00.000 71003== 
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== FILE DESCRIPTORS: 11 open (3 std) at exit.
+==00:00:00:16.852 71003== Open file descriptor 103: /snap/code/172/usr/share/code/v8_context_snapshot.bin
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open file descriptor 63:
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open file descriptor 45: /dev/ptmx
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open file descriptor 44: /dev/ptmx
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open AF_UNIX socket 43: <unknown>
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open file descriptor 42: /home/san/.config/Code/logs/20241015T000903/ptyhost.log
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open file descriptor 10: /home/san/FIUBA-taller-de-programacion/threads-2024c2-santiagojorda/testcases/casos/05_three_players_three_pickups/__client_0_pipe__
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== Open file descriptor 3: /home/san/FIUBA-taller-de-programacion/threads-2024c2-santiagojorda/testcases/casos/05_three_players_three_pickups/__client_1_valgrind__
+==00:00:00:16.852 71003==    <inherited from parent>
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== HEAP SUMMARY:
+==00:00:00:16.852 71003==     in use at exit: 0 bytes in 0 blocks
+==00:00:00:16.852 71003==   total heap usage: 15 allocs, 15 frees, 82,437 bytes allocated
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== All heap blocks were freed -- no leaks are possible
+==00:00:00:16.852 71003== 
+==00:00:00:16.852 71003== For lists of detected and suppressed errors, rerun with: -s
+==00:00:00:16.852 71003== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

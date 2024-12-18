@@ -1,0 +1,307 @@
+idle:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 8
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+running:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 8
+      w: 32
+      h: 32
+    - x: 33
+      y: 8
+      w: 32
+      h: 32
+    - x: 66
+      y: 8
+      w: 32
+      h: 32
+    - x: 99
+      y: 8
+      w: 32
+      h: 32
+    - x: 99
+      y: 8
+      w: 32
+      h: 32
+    - x: 132
+      y: 8
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+crouching:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 161
+      y: 40
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+jumping:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 40
+      w: 32
+      h: 32
+    - x: 33
+      y: 40
+      w: 32
+      h: 32
+    - x: 66
+      y: 40
+      w: 32
+      h: 32
+    - x: 99
+      y: 40
+      w: 32
+      h: 32
+    - x: 99
+      y: 40
+      w: 32
+      h: 32
+    - x: 1
+      y: 8
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+falling:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 99
+      y: 40
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+wings_weapon:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 566
+      w: 16
+      h: 16
+    - x: 17
+      y: 566
+      w: 16
+      h: 16
+    - x: 33
+      y: 566
+      w: 16
+      h: 16
+    - x: 49
+      y: 566
+      w: 16
+      h: 16
+    - x: 65
+      y: 566
+      w: 16
+      h: 16
+    - x: 81
+      y: 566
+      w: 16
+      h: 16
+  offset_right_x: 7
+  offset_left_x: 9
+  offset_y: 11
+  scale_width: 16
+  scale_height: 16
+
+wings_crouching:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 81
+      y: 534
+      w: 16
+      h: 16
+  offset_right_x: 5
+  offset_left_x: 11
+  offset_y: 13
+  scale_width: 16
+  scale_height: 16
+
+wings_walking_simple:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 518
+      w: 16
+      h: 16
+    - x: 17
+      y: 518
+      w: 16
+      h: 16
+    - x: 33
+      y: 518
+      w: 16
+      h: 16
+    - x: 49
+      y: 518
+      w: 16
+      h: 16
+    - x: 65
+      y: 518
+      w: 16
+      h: 16
+    - x: 81
+      y: 518
+      w: 16
+      h: 16
+  offset_right_x: 5
+  offset_left_x: 11
+  offset_y: 13
+  scale_width: 16
+  scale_height: 16
+
+dead:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 139
+      w: 32
+      h: 32
+    - x: 33
+      y: 139
+      w: 32
+      h: 32
+    - x: 65
+      y: 139
+      w: 32
+      h: 32
+    - x: 97
+      y: 139
+      w: 32
+      h: 32
+    - x: 129
+      y: 139
+      w: 32
+      h: 32
+    - x: 161
+      y: 139
+      w: 32
+      h: 32
+    - x: 1
+      y: 167
+      w: 32
+      h: 32
+    - x: 33
+      y: 167
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+slipping:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 139
+      w: 32
+      h: 32
+    - x: 33
+      y: 139
+      w: 32
+      h: 32
+    - x: 65
+      y: 139
+      w: 32
+      h: 32
+    - x: 97
+      y: 139
+      w: 32
+      h: 32
+    - x: 129
+      y: 139
+      w: 32
+      h: 32
+    - x: 161
+      y: 139
+      w: 32
+      h: 32
+    - x: 1
+      y: 171
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+planning:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 1
+      y: 40
+      w: 32
+      h: 32
+    - x: 33
+      y: 40
+      w: 32
+      h: 32
+    - x: 66
+      y: 40
+      w: 32
+      h: 32
+    - x: 99
+      y: 40
+      w: 32
+      h: 32
+    - x: 99
+      y: 40
+      w: 32
+      h: 32
+    - x: 1
+      y: 8
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 0
+  scale_height: 0
+
+wings_planning:
+  texture: "/DuckGame-YellowDuck.png"
+  rects:
+    - x: 33
+      y: 550
+      w: 16
+      h: 16
+  offset_right_x: 5
+  offset_left_x: 11
+  offset_y: 13
+  scale_width: 16
+  scale_height: 16

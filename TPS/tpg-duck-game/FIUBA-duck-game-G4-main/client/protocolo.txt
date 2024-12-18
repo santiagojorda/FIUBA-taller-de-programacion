@@ -1,0 +1,60 @@
+client recibe game_state
+
+struct client_game_state_t {
+    VectorPlayers players;
+    std::vector<bullet_t> bullets;
+    VectorThrowable throwable;
+    std::vector<box_t> boxs;
+    VectorSprite floors;
+};
+
+Recibo 5 datos, Analizamos dato por dato
+
+----------------- VectorPlayers -----------------
+Es un std::vector<player_t>
+
+Cada player_t contiene lo siguiente
+
+struct player_t {
+    sprite_t sprite; //
+    uint8_t is_looking; 
+    uint8_t state;  // si esta parado o bla , con este elijo la animacion
+    uint8_t frame;  // que parte de la animacion
+    inventory_t inventory;
+};
+
+sprite: es un struct que me brinda 
+    id_texture -> El path de la imagen a buscar. Que a su vez es el id del jugador
+    coordinate -> Coordenadas con respecto a la pantalla !!!!
+
+is_looking: me dice hacia que lado mira el pato
+    0: mira a la izquierda
+    1: mira a la derecha
+    2: mira hacia arriba
+    3: mira hacia abajo
+
+state: me dice el estado del pato, si está parado, agachado, etc.
+// para que me sirve el state si ya tengo el sprite que me indica la imagen a buscar ??
+
+frame: me dice en qué parte de la animación estoy
+DUDA: entonces, cuando estoy caminando, este frame ya me dice en cuál animación estoy ??
+O si estoy por caerme, me indica si estoy en el sprite 1, 2 o 3 ??
+
+
+inventory: es un struct que me brinda
+    sprite_t weapon;  // ARMA id_texture -> El path de la imagen a buscar. Coordenadas con respecto a la pantalla !!!!
+    uint8_t ammo; // BALAS cantidad de balas 
+    sprite_t armor;  // ARMADURA id_texture -> El path de la imagen a buscar. Coordenadas con respecto a la pantalla !!!!
+    sprite_t helmet; // CASCO id_texture -> El path de la imagen a buscar. Coordenadas con respecto a la pantalla !!!!
+
+
+
+
+/*
+
+// DuckGame-Grenades.png ->  granadas, banana
+// DuckGame-Laser.png -> pew pew laser
+// DuckGame-MachineGuns.png ->  AK_47
+// DuckGame-Pistol.png ->  pistola cowboy, magnum, supongo que la pistol es la pistola de duelos
+// DuckGame-MoreWeapons.png -> sniper,
+*/

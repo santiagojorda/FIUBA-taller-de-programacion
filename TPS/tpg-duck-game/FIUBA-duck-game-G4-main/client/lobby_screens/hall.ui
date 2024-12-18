@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Hall</class>
+ <widget class="QWidget" name="Hall">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidgetHall">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>800</width>
+     <height>600</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="page1player">
+    <property name="styleSheet">
+     <string notr="true">#page1player {
+	background-color: grey;
+}</string>
+    </property>
+    <widget class="QPushButton" name="buttonStartGame">
+     <property name="geometry">
+      <rect>
+       <x>285</x>
+       <y>480</y>
+       <width>230</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#buttonStartGame {
+	background-color: black;
+	font-size: 30px;
+     color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Start game</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelWaiting">
+    <property name="styleSheet">
+                <string notr="true">#labelWaiting {
+                color: white;
+                }</string>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>490</y>
+       <width>561</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Esperando a que el host inicie la partida...</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="containerOnlyOnePlayer">
+     <property name="geometry">
+      <rect>
+       <x>275</x>
+       <y>120</y>
+       <width>250</width>
+       <height>290</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labelOnlyOnePlayer">
+      <property name="styleSheet">
+                <string notr="true">#labelOnlyOnePlayer {
+                color: white;
+                }</string>
+     </property>
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>30</y>
+        <width>241</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Color Player</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelmageDuck">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>90</y>
+        <width>160</width>
+        <height>160</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/DuckSelection.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="containerTwoPlayers">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>120</y>
+       <width>600</width>
+       <height>290</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Shape::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Shadow::Raised</enum>
+     </property>
+     <widget class="QLabel" name="labelPlayer_1">
+      <property name="styleSheet">
+                <string notr="true">#labelPlayer_1 {
+                color: white;
+                }</string>
+     </property>
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>30</y>
+        <width>201</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Color Player 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelPlayer_2">
+     <property name="styleSheet">
+                <string notr="true">#labelPlayer_2 {
+                color: white;
+                }</string>
+     </property>
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>30</y>
+        <width>200</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Color Player 2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelImageDuckP1">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>100</y>
+        <width>160</width>
+        <height>160</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/DuckSelection.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelImageDuckP2">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>100</y>
+        <width>160</width>
+        <height>160</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="resources.qrc">:/images/DuckSelection.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

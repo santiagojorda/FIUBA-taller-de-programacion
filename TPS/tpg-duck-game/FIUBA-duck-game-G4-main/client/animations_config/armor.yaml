@@ -1,0 +1,45 @@
+has_armor:
+  texture: "/DuckGame-Equipment.png"
+  rects:
+    - x: 387
+      y: 11
+      w: 32
+      h: 32
+    - x: 419
+      y: 11
+      w: 32
+      h: 32
+    - x: 451
+      y: 11
+      w: 32
+      h: 32
+    - x: 483
+      y: 11
+      w: 32
+      h: 32
+    - x: 515
+      y: 11
+      w: 32
+      h: 32
+    - x: 547
+      y: 11
+      w: 32
+      h: 32
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 5
+  scale_width: 32
+  scale_height: 32
+
+has_helmet:
+  texture: "/DuckGame-Equipment.png"
+  rects:
+    - x: 452
+      y: 213
+      w: 32
+      h: 32
+  offset_right_x: -2
+  offset_left_x: 2
+  offset_y: -7
+  scale_width: 32
+  scale_height: 32

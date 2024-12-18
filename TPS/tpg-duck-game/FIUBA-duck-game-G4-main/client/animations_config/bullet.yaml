@@ -1,0 +1,12 @@
+bullet_1:
+  texture: "/bala.png"
+  rects:
+    - x: 0
+      y: 0
+      w: 8
+      h: 8
+  offset_right_x: 0
+  offset_left_x: 0
+  offset_y: 0
+  scale_width: 10
+  scale_height: 10

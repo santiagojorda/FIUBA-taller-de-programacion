@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidgetForm">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="pageForm">
+    <property name="styleSheet">
+     <string notr="true">#pageForm {
+background-image: url(:/images/background-form-ok.png)
+}</string>
+    </property>
+    <widget class="QFrame" name="ContainerForm">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>30</y>
+       <width>541</width>
+       <height>471</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#ContainerForm {
+	background-color: black;
+	padding: 20px;
+	border-radius: 10px;
+}</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <property name="spacing">
+       <number>7</number>
+      </property>
+      <item>
+       <widget class="QFrame" name="ContainerForm_2">
+        <property name="styleSheet">
+         <string notr="true">#ContainerForm_2 {
+	background-color: black;
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <widget class="QLabel" name="labelHostname_2">
+          <property name="styleSheet">
+                <string notr="true">#labelHostname_2 {
+                color: white;
+                }</string>
+           </property>
+           <property name="text">
+            <string>Hostname</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="inputHostname"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelErrorHostname">
+           <property name="styleSheet">
+            <string notr="true">#labelErrorHostname {
+	color: red;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ingrese un hostname</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="ContainerForm_3">
+        <property name="styleSheet">
+         <string notr="true">#ContainerForm_3 {
+	background-color: black;
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QLabel" name="labelPort">
+          <property name="styleSheet">
+                <string notr="true">#labelPort {
+                color: white;
+                }</string>
+           </property>
+           <property name="text">
+            <string>Port</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="inputPort"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelErrorPort">
+           <property name="styleSheet">
+            <string notr="true">#labelErrorPort {
+	color: red;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ingrese un port</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="QFrame" name="ContainerForm_4">
+        <property name="styleSheet">
+         <string notr="true">#ContainerForm_4 {
+	background-color: black;
+}</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QLabel" name="labelNumberPlayers">
+          <property name="styleSheet">
+                <string notr="true">#labelNumberPlayers {
+                color: white;
+                }</string>
+           </property>
+           <property name="text">
+            <string>Number of players in this device</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spinNumberPlayers"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelErrorNumberPlayers">
+           <property name="styleSheet">
+            <string notr="true">#labelErrorNumberPlayers {
+	color: red;
+}</string>
+           </property>
+           <property name="text">
+            <string>Ingrese numero de jugadores</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="buttonContinue">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>520</y>
+       <width>200</width>
+       <height>70</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#buttonContinue {
+	background-color: black;
+	font-size: 30px;
+    color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string>Connect</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

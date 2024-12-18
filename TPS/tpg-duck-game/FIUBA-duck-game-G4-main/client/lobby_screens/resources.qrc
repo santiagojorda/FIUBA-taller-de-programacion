@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>background_form.png</file>
+        <file>background_lobby.png</file>
+        <file>DuckSelection.png</file>
+        <file>background-lobby-ok.png</file>
+        <file>background-form-ok.png</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>fuentes/pixel_digivolve/Pixel_Digivolve.otf</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>sounds/JazzLobby.mp3</file>
+    </qresource>
+</RCC>
